@@ -124,4 +124,5 @@ sm8750-adreno-a830-gpu-driver.patch
 0043-power-sequencing-qcom-wcn-add-support-for-WCN7860.patch
 0044-clk-qcom-gcc-sm8750-Do-not-turn-off-PCIe-GDSCs-durin.patch
 0045-Bluetooth-qca-add-WCN7860-support.patch
+SM8750-enable-DP-Altmode.patch
 0600-ROCKNIX-sm8750-tsens-thermal-zones.patch
