@@ -868,6 +868,8 @@
 
 &i2c5 {
 	clock-frequency = <400000>;
+	/delete-property/ dmas;
+	/delete-property/ dma-names;
 	status = "okay";
 
 	spk_amp_l: spk_amp_l@34 {
