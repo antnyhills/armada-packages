@@ -506,6 +506,7 @@
 			regulator-min-microvolt = <1800000>;
 			regulator-max-microvolt = <1800000>;
 			regulator-initial-mode = <RPMH_REGULATOR_MODE_HPM>;
+			regulator-always-on;
 			regulator-allow-set-load;
 			regulator-allowed-modes = <RPMH_REGULATOR_MODE_LPM
 						   RPMH_REGULATOR_MODE_HPM>;
@@ -867,8 +868,6 @@
 
 &i2c5 {
 	clock-frequency = <400000>;
-	/delete-property/ dmas;
-	/delete-property/ dma-names;
 	status = "okay";
 
 	spk_amp_l: spk_amp_l@34 {
