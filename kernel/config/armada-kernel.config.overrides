@@ -348,6 +348,3 @@ CONFIG_WIREGUARD=m
 
 CONFIG_TYPEC_DP_ALTMODE=y
 CONFIG_TYPEC_MUX_WCD939X_USBSS=y
-
-# Disable legacy PMIC GLINK Altmode; UCSI handles this on SM8750 (matches Rocknix)
-# CONFIG_TYPEC_PMIC_GLINK is not set
